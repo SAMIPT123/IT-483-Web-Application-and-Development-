@@ -1,0 +1,83 @@
+html{
+    background-image: url(bats.gif);
+    background-repeat: repeat; 
+}
+
+main {
+    background-color: orange;
+    border: 2px solid black;
+    line-height: 12px;    
+    background: linear-gradient(to left, black 0%, orange 30%, white);
+    margin-left: 0px;
+    
+}
+body{
+    border: 3px solid black;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px;
+    background: linear-gradient(white,white);
+    width: 800px;
+    padding-left: 0px;
+    
+}
+
+footer{
+    background:orange;
+    border:3px solid black;
+    box-shadow: 5px;
+    background: linear-gradient(to right, black 0%, orange 30%, white);
+}
+    
+.bodydiv{
+        padding: 2em;
+    }
+
+body {
+    font-family:sans-serif, Arial, Helvetica;        
+        
+}
+
+h2{
+    font-size: 22px;
+    font-style: bold;
+
+}
+
+h1 {
+	color: Black;
+    text-indent: 15px;
+    font-size: 220%;
+
+}
+
+h4{
+    font-size:120%;
+    font-style: bold;
+}
+
+img {
+    float: left;
+    margin-left: 0.6em
+}
+h3{
+    text-indent:20px;
+
+}
+
+a {
+    font-weight: bold;
+    line-height: 1.4;
+    color: orange;
+}
+b{
+    font-size: 200%;
+}
+
+a:hover{
+    color: green;
+}
+
+footer{
+    font-size: 80%;
+    text-align: center;
+}
