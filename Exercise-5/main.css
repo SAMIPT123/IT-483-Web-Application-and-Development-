@@ -1,0 +1,142 @@
+html{
+    background-image: url(bats.gif);
+    background-repeat: repeat; 
+}
+
+body{
+    background-color:white;
+    width: 800px;
+    border:black solid 5px;
+    margin:auto;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+    
+}
+header img{
+    float:left;
+    padding: 0.5em 1 em;
+}
+
+header{
+    border: 3px solid black;
+    border-width: 0px 0px 3px 0px;    
+    background-image: -webkit-linear-gradient(30deg, white 0%, orange 75%, black 99%);
+	background-image: -moz-linear-gradient(30deg, white 0%, orange 75%, black 99%);
+    padding: 1em 0;
+    margin-left: 0px;
+    
+}
+
+header h1{
+    font-size: 225%;
+    margin: 0;
+}
+
+header h3{
+    font-size: 120%;
+    margin: 0;
+    padding-left: 1em;
+}
+
+aside{
+    width:160px;
+    float:left;
+    height: 600px;
+    padding-right: 1em;
+    
+}
+
+    
+}
+section{
+    float:right;
+    width:800px;
+    padding: 2em;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px 10px;
+    background: linear-gradient(white,white);
+}
+
+section h2{
+    font-size:150%;
+    margin: 0;
+    padding: 1em 0 0 1em;
+}
+
+section h4{
+    font-size: 150%;
+    padding .25em 0 0 1em;
+    margin:0;
+}
+
+ul{
+    padding-left: 2em;
+    margin: 0 2 em;
+    line-height: 1.5em;
+}
+
+li{
+    font-size: 100%;
+    padding-left: 0.25em;
+}
+
+p{
+    padding: 0 0 0 1em;
+}
+
+section h2: first-child::first-letter{
+    font-size:200%;
+}
+
+a:link, a:visited{
+    color: orange;
+    font-weight:bold;
+}
+
+a:hover, a:focus{
+    color:green
+}
+
+body h2::first-letter{
+    font-size: 200%;
+}
+
+footer {
+    clear:both;
+	font-size: 90%;
+	text-align: center;
+	border: black solid 3px;
+	border-width: 3px 0px 0px 0px;
+	padding: .75em;
+	background: -webkit-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	background: -moz-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	background: -o-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	}
+    
+    
+
+h2{
+    font-size: 22px;
+    font-style: bold;
+
+}
+
+h1 {
+	color: Black;
+    text-indent: 15px;
+    font-size: 220%;
+
+}
+
+h4{
+    font-size:120%;
+    font-style: bold;
+}
+
+h3{
+    text-indent:20px;
+
+}
