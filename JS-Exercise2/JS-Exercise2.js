@@ -1,5 +1,5 @@
 var fTemp=0;
-        var cTemp=0;
+var cTemp=0;
 
 do{
     fTemp=prompt("Enter Fahrenheit Temperature");
